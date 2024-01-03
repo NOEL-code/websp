@@ -1,0 +1,108 @@
+*{font-family: 'Gowun Batang', serif;}
+    #header_letter{
+      color:black;
+    }
+    a{
+      text-decoration:none;
+      color:black;
+    }
+
+    #banner{
+      width:100px;
+      padding:10px;
+      display:inline-block;
+      vertical-align: middle;
+    }
+    header{
+      height:100px;
+      text-align:center;
+      font-size:20px;
+      padding-bottom:15px;
+    }
+
+    header h1{
+      padding-top:8px;
+      vertical-align:middle;
+      display:inline-block;
+      margin-right:6%;
+    }
+    #listofgym{
+      margin-top:0px;
+      width:100%;
+    }
+    #listofgym li{
+      list-style: none;
+      line-height: 55px;
+      font-size:30px;
+      text-align: center;
+      margin-left:-40px;
+      margin-right:40px;
+      text-decoration:underline #5a5757 solid 1px;
+      text-underline-offset: 5px;
+    }
+    #listofgym li:hover{
+      font-size:33px;
+      text-decoration: underline black solid 1px;
+    }
+    #sidebar{
+      display:inline-block;
+      width:700px;
+      vertical-align: top;
+    }
+    span{
+      width:auto;
+      height:844px;
+      background-color:#363535;
+      display:inline-block;
+      flex:1;
+    }
+    #main_content{
+      display:flex;
+    }
+    #left, #right{
+      width:auto;
+    }
+    .letters {
+      text-align: center;
+      font-size: 30px;
+      animation-name: fade-in;
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+      margin:0px;
+      padding-top:3px;
+      padding-bottom:4px;
+    }
+    
+    @keyframes fade-in {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    #sidebar img{
+      width:100%;
+    }
+
+    body{
+      margin:1px;
+    }
+    #boldofletter{
+      color:darkgreen;
+      font-size:35px;
+    }
+
+    #body{
+      position:absolute;
+      right:10px;
+      padding:30px;
+    }
+    #body_text{
+      position:absolute;
+      right:30px;
+      top:70px;
+      font-size:16px;
+      font-style:bold;
+    }
